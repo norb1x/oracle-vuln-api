@@ -1,4 +1,4 @@
-# 🔥 Oracle SQL Injection [education purpose only] – Vulnerable Flask API
+# Oracle SQL Injection [education purpose only] – Vulnerable Flask API
 
 Projekt prezentujący dwa prawdziwe ataki SQL Injection na bazie **Oracle XE 21c**:
 
