@@ -23,7 +23,7 @@ def vulnerable_login(username, password):
 
 def vulnerable_dump(search):
     """
-    Celowo podatne zapytanie pod UNION-based SQLi.
+    Celowo podatne zapytanie pod UNION-based SQLi.  ## ❌ VULNERABLE: UNION SQL Injection possible here
     """
     conn = get_connection()
     cur = conn.cursor()
@@ -41,3 +41,4 @@ def vulnerable_dump(search):
     cur.close()
     conn.close()
     return rows
+
